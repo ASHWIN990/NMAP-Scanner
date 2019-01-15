@@ -29,7 +29,8 @@ Its easy to install just follow the step one by one :-
 4.) cd NMAP-Scanner
 5.) chmod +x install.sh
 6.) chmod +x nmap-scanner.sh
-7.) ./nmap-scanner.sh
+7.) sudo ./install.sh
+8.) sudo ./nmap-scanner.sh
 ```
 
 ## Author
