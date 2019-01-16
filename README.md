@@ -2,7 +2,7 @@
 
 ![](https://i.ibb.co/NTyndrF/p-nmap.png)
 
-NMAP Scanner for beginners those who have not enough idea about what NMAP can do. Do not use this for wromg purpose use for test and educational purpose and never do any NMAP Scan on any network without the permission of the ownwer.
+NMAP Scanner for beginners those who have not enough idea about what NMAP can do. Do not use this for wrong purpose use for test and educational purpose and never do any NMAP Scan on any network without the permission of the ownwer.
 
 ## Getting Started
 
