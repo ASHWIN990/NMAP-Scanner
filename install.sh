@@ -21,7 +21,7 @@ echo
  
 echo 
 
-echo -e "\e[34;1mI ASSUME THAT YOUR DISTRO IS ALREADY INSTALLED WIT NMAP AND SOME BASIC TOOLS\e[0m"
+echo -e "\e[34;1mINSTALLING NMAP \e[0m"
 
 echo
 
