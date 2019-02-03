@@ -31,6 +31,10 @@ echo
 
 sudo apt-get install nmap -y
 
+echo 
+
+sudo chmod +x nmap-scanner.sh
+
 echo
 
 echo 
