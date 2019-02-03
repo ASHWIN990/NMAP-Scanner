@@ -29,12 +29,12 @@ echo
 
 echo 
 
-nmap --version
+sudo apt-get install nmap -y
 
 echo
 
 echo 
 
-echo -e "\e[1;34mIF YOU DONT HAVE THE NMAP PLEASE INSTALL IT BEFORE PERFORMING ANY SCAN.\e[24;0m"
+echo -e "\e[1;34mINSTALLING IS DONE.\e[24;0m"
 
 
