@@ -41,4 +41,10 @@ echo
 
 echo -e "\e[1;34mINSTALLING IS DONE.\e[24;0m"
 
+echo
 
+echo 
+
+echo -e "\e[1;34mTO START JUST DO \e[91;1m./nmap-scanner.sh\e[24;0m"
+
+echo
