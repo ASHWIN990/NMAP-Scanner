@@ -7,9 +7,6 @@
 # Written in BASH Script.
 #THANKS :-)
 
-
-
-
 echo -e " \e[1;5;93m
   _   _ __  __    _    ____    ____   ____    _    _   _ _   _ _____ ____  
  | \ | |  \/  |  / \  |  _ \  / ___| / ___|  / \  | \ | | \ | | ____|  _ \ 
@@ -43,18 +40,8 @@ echo -e
 echo -e "\e[1;94mYou entered this IP : \e[91;1m$firstip\e[0m"
 echo -e 
 echo -e "\e[94;1mYour entered the range of PORTS are :  \e[1;91m$port1 \e[1;93mto \e[91;1m$port2  \e[0m"
-
 echo -e
-#read -p "If you want to continue (Y/N) " continue
 echo -e
-
-
-
-
-
-
-
-
 
 while true; do
   read -p $'\e[93;1mDo you want to continue\e[1;97m (Y/N) \e[93;1m? : \e[1;91m' yn
@@ -92,7 +79,6 @@ echo -e "\e[1;93m19.  \e[1;92mScan And Detect Remote Server/Deamon"
 echo -e "\e[1;93m20.  \e[1;92mScan A Firewall for MAC Address Spoofing"
 echo -e "\e[1;93m21.  \e[1;92mNMAP HELP"
 echo -e "\e[1;93m22.  \e[1;92mABOUT AUTHOUR"
-#echo -e "\e[1;93m22.  \e[1;92mSimple Ping Test"
 echo -e
 echo -e
 echo -e
@@ -126,12 +112,7 @@ read -p $'\e[1;4;91mSELECT ONE OF THE OPTIONS WITH THE RESPECTED NUMBER\e[0m\e[2
   twentytwo=22
 
 
-
-
 # ALL THE IF AND ELSE STATEMENT COMES HERES
-
-
-
 
 
 if [ "$options" = "$one" ]
@@ -149,9 +130,6 @@ if [ "$options" = "$one" ]
 fi
 
 
-
-
-
 if [ "$options" = "$two" ]
 
   then
@@ -165,9 +143,6 @@ if [ "$options" = "$two" ]
              nmap -T4 -F $firstip
 
 fi
-
-
-
 
 
 if [ "$options" = "$three" ]
@@ -185,9 +160,6 @@ if [ "$options" = "$three" ]
 fi
 
 
-
-
-
 if [ "$options" = "$four" ]
 
   then 
@@ -201,9 +173,6 @@ if [ "$options" = "$four" ]
              nmap -sn --traceroute 10 $firstip
 
 fi
-
-
-
 
 
 if [ "$options" = "$five" ]
@@ -221,9 +190,6 @@ if [ "$options" = "$five" ]
 fi
 
 
-
-
-
 if [ "$options" = "$six" ]
 
   then
@@ -237,9 +203,6 @@ if [ "$options" = "$six" ]
              nmap -sn $firstip
 
 fi
-
-
-
 
 
 if [ "$options" = "$seven" ]
@@ -257,9 +220,6 @@ if [ "$options" = "$seven" ]
 fi
 
 
-
-
-
 if [ "$options" = "$eight" ]
 
   then 
@@ -273,9 +233,6 @@ if [ "$options" = "$eight" ]
            nmap -T4 -A -v -Pn $firstip
 
 fi
-
-
-
 
 
 if [ "$options" = "$nine" ]
@@ -293,9 +250,6 @@ if [ "$options" = "$nine" ]
 fi
 
 
-
-
-
 if [ "$options" = "$ten" ]
 
   then 
@@ -309,9 +263,6 @@ if [ "$options" = "$ten" ]
              nmap -sS -sU -T4 -A -v $firstip
 
 fi
-
-
-
 
 
 if [ "$options" = "$eleven" ]
@@ -328,9 +279,6 @@ if [ "$options" = "$eleven" ]
 fi
 
 
-
-
-
 if [ "$options" = "$twelve" ]
 
   then 
@@ -344,9 +292,6 @@ if [ "$options" = "$twelve" ]
              nmap -O $firstip
 
 fi
-
-
-
 
 
 if [ "$options" = "$thirteen" ]
@@ -366,9 +311,6 @@ if [ "$options" = "$thirteen" ]
 fi
 
 
-
-
-
 if [ "$options" = "$fourteen" ]
 
   then
@@ -384,9 +326,6 @@ if [ "$options" = "$fourteen" ]
              nmap -A -O -oX scan-result.xml $firstip
 
 fi
-
-
-
 
 
 if [ "$options" = "$fiveteen" ]
@@ -406,9 +345,6 @@ if [ "$options" = "$fiveteen" ]
 fi
 
 
-
-
-
 if [ "$options" = "$sixteen" ]
 
   then 
@@ -426,9 +362,6 @@ if [ "$options" = "$sixteen" ]
 fi
 
 
-
-
-
 if [ "$options" = "$seventeen" ]
 
   then
@@ -441,9 +374,6 @@ if [ "$options" = "$seventeen" ]
              nmap -sA $firstip
 
 fi
-
-
-
 
 
 if [ "$options" = "$eightteen" ]
@@ -461,9 +391,6 @@ if [ "$options" = "$eightteen" ]
 fi
 
 
-
-
-
 if [ "$options" = "$nineteen" ]
 
 then 
@@ -474,9 +401,6 @@ then
       echo -e
              nmap -sV $firstip
 fi
-
-
-
 
 
 if [ "$options" = "$twenty" ]
@@ -494,10 +418,6 @@ if [ "$options" = "$twenty" ]
 fi
 
 
-
-
-
-
 if [ "$options" = "$twentyone" ]
 
   then 
@@ -511,9 +431,6 @@ if [ "$options" = "$twentyone" ]
               nmap -help
   
 fi
-
-
-
 
 
 if [ "$options" = "$twentytwo" ]
@@ -546,17 +463,9 @@ if [ "$options" = "$twentytwo" ]
 fi
  
 
-
-
-
 echo
 echo
 echo -e "\e[1;91mFor more details about NMAP Scans check this post :\e[94m https://highon.coffee/blog/nmap-cheat-sheet/ \e[0m"
 echo -e
 echo -e
-
-
-
-
-
 #DON'T USE FOR WRONG INTENTION
