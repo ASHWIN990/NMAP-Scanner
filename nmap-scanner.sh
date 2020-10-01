@@ -1,11 +1,13 @@
 #!/bin/bash
 
+
 # Tool Name :- Nmap Scanner
 # Author Name :- Ashwini Sahu
 # Date  :- 12/01/2019
 # Note :- Please don't use for wrong intension just use for educational purpose cause its an educational tool.
 # Written in BASH Script.
 #THANKS :-)
+
 
 echo -e " \e[1;5;93m
   _   _ __  __    _    ____    ____   ____    _    _   _ _   _ _____ ____  
@@ -114,11 +116,9 @@ read -p $'\e[1;4;91mSELECT ONE OF THE OPTIONS WITH THE RESPECTED NUMBER\e[0m\e[2
 
 # ALL THE IF AND ELSE STATEMENT COMES HERES
 
-
 if [ "$options" = "$one" ]
 
   then
-
 
     echo -e
     echo -e
